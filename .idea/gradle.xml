@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="LOCAL" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleHome" value="$APPLICATION_HOME_DIR$/gradle/gradle-2.2.1" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/balance" />
+            <option value="$PROJECT_DIR$/boiler" />
+            <option value="$PROJECT_DIR$/gasProperty" />
+            <option value="$PROJECT_DIR$/library" />
+            <option value="$PROJECT_DIR$/natureGasHeat" />
+            <option value="$PROJECT_DIR$/valveleakage" />
+            <option value="$PROJECT_DIR$/winsteam" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>
+

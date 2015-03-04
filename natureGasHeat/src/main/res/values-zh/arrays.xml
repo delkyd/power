@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="component">
+
+        <item>甲烷</item>
+        <item>乙烷</item>
+        <item>丙烷</item>
+        <item>丁烷</item>
+        <item>2-甲基丙烷</item>
+        <item>戊烷</item>
+        <item>2-甲基丁烷</item>
+        <item>2,2-甲基丁烷</item>
+        <item>已烷</item>
+        <item>2-甲基戊烷</item>
+        <item>3-甲基戊烷</item>
+        <item>2,2-甲基丁烷</item>
+        <item>2,3-甲基丁烷</item>
+        <item>庚烷</item>
+        <item>辛烷</item>
+        <item>壬烷</item>
+        <item>葵烷</item>
+        <item>乙烯</item>
+        <item>丙烯</item>
+        <item>1-丁烯</item>
+        <item>顺-2-丁烯</item>
+        <item>反-2-丁烯</item>
+        <item>2-甲基丙烯</item>
+        <item>1-戊烯</item>
+        <item>丙二烯</item>
+        <item>1,2-丁二烯</item>
+        <item>1,3-丁二烯</item>
+        <item>乙炔</item>
+        <item>环戊烷</item>
+        <item>甲基环戊烷</item>
+        <item>乙基环戊烷</item>
+        <item>乙基环戊烷</item>
+        <item>环已烷</item>
+        <item>甲基环已烷</item>
+        <item>乙基环已烷</item>
+        <item>苯</item>
+        <item>甲苯</item>
+        <item>乙苯</item>
+        <item>邻二甲苯</item>
+        <item>甲醇</item>
+        <item>甲硫醇</item>
+        <item>氢气</item>
+        <item>水</item>
+        <item>硫化氢</item>
+        <item>氨</item>
+        <item>氰化氢</item>
+        <item>一氧化碳</item>
+        <item>硫氧碳</item>
+        <item>二硫化碳</item>
+        <item>氦气</item>
+        <item>氖气</item>
+        <item>氩气</item>
+        <item>氮气</item>
+        <item>氧气</item>
+        <item>二氧化碳</item>
+        <item>二硫化碳</item>
+        <item>空气</item>
+    </string-array>
+    <string-array name="ratio">
+        <item>体积百分比</item>
+        <item>摩尔百分比</item>
+    </string-array>
+</resources>

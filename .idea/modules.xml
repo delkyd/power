@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/MyWorkSpace.iml" filepath="$PROJECT_DIR$/MyWorkSpace.iml" />
+      <module fileurl="file://$PROJECT_DIR$/balance/balance.iml" filepath="$PROJECT_DIR$/balance/balance.iml" />
+      <module fileurl="file://$PROJECT_DIR$/boiler/boiler.iml" filepath="$PROJECT_DIR$/boiler/boiler.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gasProperty/gasProperty.iml" filepath="$PROJECT_DIR$/gasProperty/gasProperty.iml" />
+      <module fileurl="file://$PROJECT_DIR$/library/library.iml" filepath="$PROJECT_DIR$/library/library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/natureGasHeat/natureGasHeat.iml" filepath="$PROJECT_DIR$/natureGasHeat/natureGasHeat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/valveleakage/valveleakage.iml" filepath="$PROJECT_DIR$/valveleakage/valveleakage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/winsteam/winsteam.iml" filepath="$PROJECT_DIR$/winsteam/winsteam.iml" />
+    </modules>
+  </component>
+</project>
+

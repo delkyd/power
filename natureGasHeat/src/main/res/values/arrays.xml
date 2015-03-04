@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="component">
+
+        <item>Methane</item>
+        <item>Ethane</item>
+        <item>Propane</item>
+        <item>n-Butane</item>
+        <item>2-Methylpropane</item>
+        <item>n-Pentane</item>
+        <item>2-Methylbutane</item>
+        <item>2,2-Dimethylpropane</item>
+        <item>n-Hexane</item>
+        <item>2-Methylpentane</item>
+        <item>3-Methylpentane</item>
+        <item>2,2-Dimethylbutane</item>
+        <item>2,3-Dimethylbutane</item>
+        <item>n-Heptane</item>
+        <item>n-Octane</item>
+        <item>n-Nonane</item>
+        <item>n-Decane</item>
+        <item>Ethylene</item>
+        <item>Propylene</item>
+        <item>1-Butene</item>
+        <item>cls-2-Butene</item>
+        <item>trans-2-Butene</item>
+        <item>2-Methylpropene</item>
+        <item>1-Pentene</item>
+        <item>Propadiene</item>
+        <item>1,2-Butadiene</item>
+        <item>1,3-Butadiene</item>
+        <item>Acetylene</item>
+        <item>Cyclopentane</item>
+        <item>Methylcyclopentane</item>
+        <item>Ethylcyclopentane</item>
+        <item>Cyclohexane</item>
+        <item>Methylcyclohexane</item>
+        <item>Ethylcyclohexane</item>
+        <item>Benzene</item>
+        <item>Toluene</item>
+        <item>Ethylbenzene</item>
+        <item>o-Xyiene</item>
+        <item>Methanol</item>
+        <item>Metanethlol</item>
+        <item>Hydrogen</item>
+        <item>Water</item>
+        <item>Hydrogen sulfide</item>
+        <item>Ammonia</item>
+        <item>Hydrogen cyanide</item>
+        <item>Carbon monoxide</item>
+        <item>Carbonyl sulfide</item>
+        <item>Carbon disulfide</item>
+        <item>Helium</item>
+        <item>Neon</item>
+        <item>Argon</item>
+        <item>Nitrogen</item>
+        <item>Oxygen</item>
+        <item>Carbon dioxide</item>
+        <item>Sulfur dioxide</item>
+        <item>Air</item>
+    </string-array>
+
+    <string-array name="press">
+        <item>bar(a)</item>
+        <item>bar(g)</item>
+        <item>mbar(a)</item>
+        <item>MPa(a)</item>
+        <item>kPa(a)</item>
+        <item>psi(a)</item>
+        <item>psi(g)</item>
+        <item>in Hg(a)</item>
+        <item>atm(a)</item>
+        <item>m H2O(a)</item>
+        <item>cm H2O(a)</item>
+        <item>mm H2O(a)</item>
+        <item>in H2O(a)</item>
+        <item>ft H2O(a)</item>
+        <item>cm Hg(a)</item>
+        <item>mm Hg(a)</item>
+        <item>kgf/cm2(a)</item>
+        <item>kgf/m2(a)</item>
+    </string-array>
+    <string-array name="temp">
+        <item>K</item>
+        <item>℃</item>
+        <item>℉</item>
+        <item>R</item>
+    </string-array>
+
+    <string-array name="enh">
+        <item>kJ/kg</item>
+        <item>BTU/lb</item>
+        <item>kcal/kg</item>
+        <item>J/kg</item>
+        <item>cal/kg</item>
+    </string-array>
+    <string-array name="ratio">
+        <item>vol ratio</item>
+        <item>mol ratio</item>
+    </string-array>
+    <string-array name="ratio_value">
+        <item>vol%</item>
+        <item>mol%</item>
+    </string-array>
+
+
+    <string-array name="component_comress_factor">
+        <item>Methane</item>
+        <item>Ethane</item>
+        <item>Propane</item>
+        <item>isoButane</item>
+        <item>nButane</item>
+        <item>isoPentane</item>
+        <item>nPentane</item>
+        <item>nHexane</item>
+        <item>nHeptane</item>
+        <item>nOctane</item>
+        <item>nNonane</item>
+        <item>nNecane</item>
+        <item>CARBONDIOXIDE</item>
+        <item>NITROGEN</item>
+        <item>HYDROGENSULFIDE</item>
+        <item>HELIUM</item>
+        <item>WATER</item>
+        <item>OXYGEN</item>
+        <item>ARGON</item>
+        <item>HYDROGEN</item>
+        <item>CARBONMONOXIDE</item>
+    </string-array>
+</resources>

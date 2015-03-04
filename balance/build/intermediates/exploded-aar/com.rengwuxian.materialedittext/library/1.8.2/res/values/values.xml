@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MaterialEditText">
+        <attr name="baseColor" format="color" />
+        <attr name="primaryColor" format="color" />
+        <attr name="floatingLabel">
+            <enum name="none" value="0" />
+            <enum name="normal" value="1" />
+            <enum name="highlight" value="2" />
+        </attr>
+        <attr name="errorColor" format="color" />
+        <attr name="minCharacters" format="integer" />
+        <attr name="maxCharacters" format="integer" />
+        <attr name="singleLineEllipsis" format="boolean" />
+        <attr name="minBottomTextLines" format="integer" />
+        <attr name="helperText" format="string" />
+        <attr name="helperTextColor" format="color" />
+        <attr name="accentTypeface" format="string" />
+        <attr name="floatingLabelText" format="string" />
+        <attr name="floatingLabelSpacing" format="dimension" />
+        <attr name="hideUnderline" format="boolean" />
+        <attr name="autoValidate" format="boolean" />
+        <attr name="iconLeft" format="reference" />
+        <attr name="iconRight" format="reference" />
+        <attr name="iconPadding" format="dimension" />
+        <attr name="floatingLabelTextSize" format="dimension" />
+        <attr name="bottomTextSize" format="dimension" />
+        <attr name="floatingLabelAlwaysShown" format="boolean" />
+        <attr name="helperTextAlwaysShown" format="boolean" />
+    </declare-styleable>
+    <!-- From: file:/D:/zhukai/Projects/MaterialEditText/library/src/main/res/values/dimens.xml -->
+    <eat-comment />
+    <dimen name="bottom_ellipsis_height">4dp</dimen>
+    <dimen name="bottom_text_size">12sp</dimen>
+    <dimen name="default_padding_bottom">8dp</dimen>
+    <dimen name="default_padding_top">8dp</dimen>
+    <dimen name="floating_label_text_size">12sp</dimen>
+    <dimen name="inner_components_spacing">8dp</dimen>
+    <dimen name="inner_padding_left">0dp</dimen>
+    <dimen name="inner_padding_right">0dp</dimen>
+</resources>

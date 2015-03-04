@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!-- title -->
+    <LinearLayout
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_alignParentTop="true"
+        android:background="@color/teal_500"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/num_vp" />
+
+        <Spinner
+            android:id="@+id/sp_vp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/num_mass" />
+
+        <Spinner
+            android:id="@+id/sp_mass"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+    </LinearLayout>
+    <!--android:layout_above="@+id/footer"-->
+    <ScrollView
+        android:id="@+id/scrollview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_above="@+id/footer"
+        android:layout_below="@id/title"
+        android:layout_margin="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:divider="@drawable/linedivider"
+                android:orientation="vertical"
+                android:showDividers="middle">
+                <!-- header -->
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <com.rengwuxian.materialedittext.MaterialEditText
+                        android:id="@+id/unit_name"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:layout_weight="1"
+                        app:floatingLabel="highlight"
+                        app:floatingLabelAlwaysShown="true"
+
+                        app:floatingLabelText="@string/device_name" />
+
+                    <com.rengwuxian.materialedittext.MaterialEditText
+                        android:id="@+id/unit_model"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/view_horizontal_margin"
+                        android:layout_marginRight="8dp"
+                        android:layout_weight="1"
+                        app:floatingLabel="highlight"
+                        app:floatingLabelAlwaysShown="true"
+                        app:floatingLabelText="@string/device_type" />
+                </LinearLayout>
+
+                <!--mass-->
+
+                <LinearLayout
+                    android:id="@+id/masscontain"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:divider="@drawable/linedivider"
+                    android:orientation="vertical"
+                    android:showDividers="middle" />
+
+
+                <!-- body -->
+
+
+                <LinearLayout
+                    android:id="@+id/body"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:divider="@drawable/linedivider"
+                    android:orientation="vertical"
+                    android:showDividers="middle" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <!-- footer-->
+    <LinearLayout
+        android:id="@+id/footer"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/bottom_toobar_shape"
+
+        android:divider="?android:attr/listDivider"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:showDividers="middle">
+
+        <Button
+            android:id="@+id/btn_calc"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:drawableTop="@drawable/ic_tune_black_24dp"
+            android:text="@string/calc"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/btn_iter"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:drawableTop="@drawable/ic_sync_black_24dp"
+            android:text="@string/iter"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/btn_save"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:drawableTop="@drawable/ic_file_upload_black_24dp"
+            android:text="@string/upload"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/btn_coeff"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:drawableTop="@drawable/ic_input_black_24dp"
+            android:text="@string/coeff"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+</RelativeLayout>

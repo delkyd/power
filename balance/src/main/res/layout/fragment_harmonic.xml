@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:med="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/footer"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+
+            >
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <com.rengwuxian.materialedittext.MaterialEditText
+                    android:id="@+id/a_vib"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_weight="1"
+                    android:textSize="@dimen/textsize"
+                    med:autoValidate="true"
+
+                    med:floatingLabel="highlight"
+                    med:floatingLabelAlwaysShown="true"
+                    med:floatingLabelText="@string/a_vib" />
+
+                <com.rengwuxian.materialedittext.MaterialEditText
+                    android:id="@+id/a_after"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_weight="1"
+                    android:textSize="@dimen/textsize"
+                    med:autoValidate="true"
+
+                    med:floatingLabel="highlight"
+                    med:floatingLabelAlwaysShown="true"
+                    med:floatingLabelText="@string/a_aft" />
+
+                <com.rengwuxian.materialedittext.MaterialEditText
+                    android:id="@+id/a_mass"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_weight="1"
+                    android:textSize="@dimen/textsize"
+
+                    med:autoValidate="true"
+                    med:floatingLabel="highlight"
+                    med:floatingLabelAlwaysShown="true"
+                    med:floatingLabelText="@string/a_mass" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <com.rengwuxian.materialedittext.MaterialEditText
+                    android:id="@+id/b_vib"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_weight="1"
+                    android:textSize="@dimen/textsize"
+                    med:autoValidate="true"
+
+                    med:floatingLabel="highlight"
+                    med:floatingLabelAlwaysShown="true"
+                    med:floatingLabelText="@string/b_vib" />
+
+                <com.rengwuxian.materialedittext.MaterialEditText
+                    android:id="@+id/b_after"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_weight="1"
+                    android:textSize="@dimen/textsize"
+                    med:autoValidate="true"
+
+                    med:floatingLabel="highlight"
+                    med:floatingLabelAlwaysShown="true"
+                    med:floatingLabelText="@string/b_aft" />
+
+                <com.rengwuxian.materialedittext.MaterialEditText
+                    android:id="@+id/b_mass"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_weight="1"
+                    android:textSize="@dimen/textsize"
+
+                    med:autoValidate="true"
+                    med:floatingLabel="highlight"
+                    med:floatingLabelAlwaysShown="true"
+                    med:floatingLabelText="@string/b_mass" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <com.rengwuxian.materialedittext.MaterialEditText
+                    android:id="@+id/apb_vib"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_weight="1"
+                    android:editable="false"
+                    android:textSize="@dimen/textsize"
+
+                    med:autoValidate="true"
+                    med:floatingLabel="highlight"
+                    med:floatingLabelAlwaysShown="true"
+                    med:floatingLabelText="@string/apb_vib"
+                    med:hideUnderline="true" />
+
+                <com.rengwuxian.materialedittext.MaterialEditText
+                    android:id="@+id/apb_aft"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_weight="1"
+                    android:editable="false"
+                    android:textSize="@dimen/textsize"
+
+                    med:autoValidate="true"
+                    med:floatingLabel="highlight"
+                    med:floatingLabelAlwaysShown="true"
+                    med:floatingLabelText="@string/apb_aft"
+                    med:hideUnderline="true" />
+
+                <com.rengwuxian.materialedittext.MaterialEditText
+                    android:id="@+id/apb_mass"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_weight="1"
+                    android:editable="false"
+
+                    android:textSize="@dimen/textsize"
+                    med:autoValidate="true"
+                    med:floatingLabel="highlight"
+                    med:floatingLabelAlwaysShown="true"
+                    med:floatingLabelText="@string/apb_mass"
+                    med:hideUnderline="true" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <com.rengwuxian.materialedittext.MaterialEditText
+                    android:id="@+id/asb_vib"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_weight="1"
+                    android:editable="false"
+                    android:textSize="@dimen/textsize"
+
+                    med:autoValidate="true"
+                    med:floatingLabel="highlight"
+                    med:floatingLabelAlwaysShown="true"
+                    med:floatingLabelText="@string/asb_vib"
+                    med:hideUnderline="true" />
+
+                <com.rengwuxian.materialedittext.MaterialEditText
+                    android:id="@+id/asb_aft"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_weight="1"
+                    android:editable="false"
+                    android:textSize="@dimen/textsize"
+
+                    med:autoValidate="true"
+                    med:floatingLabel="highlight"
+                    med:floatingLabelAlwaysShown="true"
+                    med:floatingLabelText="@string/asb_aft"
+                    med:hideUnderline="true" />
+
+                <com.rengwuxian.materialedittext.MaterialEditText
+                    android:id="@+id/asb_mass"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_weight="1"
+                    android:editable="false"
+
+                    android:textSize="@dimen/textsize"
+                    med:autoValidate="true"
+                    med:floatingLabel="highlight"
+                    med:floatingLabelAlwaysShown="true"
+                    med:floatingLabelText="@string/asb_mass"
+                    med:hideUnderline="true" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <com.rengwuxian.materialedittext.MaterialEditText
+                    android:id="@+id/a_result"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_weight="1"
+                    android:editable="false"
+                    android:textSize="@dimen/textsize"
+
+                    med:autoValidate="true"
+                    med:floatingLabel="highlight"
+                    med:floatingLabelAlwaysShown="true"
+                    med:floatingLabelText="@string/a_result"
+                    med:hideUnderline="true" />
+
+                <com.rengwuxian.materialedittext.MaterialEditText
+                    android:id="@+id/apb_result"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_weight="1"
+                    android:editable="false"
+                    android:textSize="@dimen/textsize"
+
+                    med:autoValidate="true"
+                    med:floatingLabel="highlight"
+                    med:floatingLabelAlwaysShown="true"
+                    med:floatingLabelText="@string/apb_result"
+                    med:hideUnderline="true" />
+
+                <com.rengwuxian.materialedittext.MaterialEditText
+                    android:id="@+id/apb_coe"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_weight="1"
+                    android:editable="false"
+
+                    android:textSize="@dimen/textsize"
+                    med:autoValidate="true"
+                    med:floatingLabel="highlight"
+                    med:floatingLabelAlwaysShown="true"
+                    med:floatingLabelText="@string/apb_coe"
+                    med:hideUnderline="true" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <com.rengwuxian.materialedittext.MaterialEditText
+                    android:id="@+id/b_result"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_weight="1"
+                    android:editable="false"
+                    android:textSize="@dimen/textsize"
+
+                    med:autoValidate="true"
+                    med:floatingLabel="highlight"
+                    med:floatingLabelAlwaysShown="true"
+                    med:floatingLabelText="@string/b_result"
+                    med:hideUnderline="true" />
+
+                <com.rengwuxian.materialedittext.MaterialEditText
+                    android:id="@+id/asb_result"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_weight="1"
+                    android:editable="false"
+                    android:textSize="@dimen/textsize"
+
+                    med:autoValidate="true"
+                    med:floatingLabel="highlight"
+                    med:floatingLabelAlwaysShown="true"
+                    med:floatingLabelText="@string/asb_result"
+                    med:hideUnderline="true" />
+
+                <com.rengwuxian.materialedittext.MaterialEditText
+                    android:id="@+id/asb_coe"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_weight="1"
+                    android:editable="false"
+
+                    android:textSize="@dimen/textsize"
+                    med:autoValidate="true"
+                    med:floatingLabel="highlight"
+                    med:floatingLabelAlwaysShown="true"
+                    med:floatingLabelText="@string/asb_coe"
+                    med:hideUnderline="true" />
+            </TableRow>
+        </TableLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/footer"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/bottom_toobar_shape"
+
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_calc"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:drawableTop="@drawable/ic_format_indent_decrease_black_24dp"
+            android:text="@string/calc"
+            android:textSize="@dimen/textsize" />
+
+        <Button
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+
+            />
+
+        <Button
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:color/transparent" />
+
+        <Button
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:color/transparent" />
+    </LinearLayout>
+</RelativeLayout>

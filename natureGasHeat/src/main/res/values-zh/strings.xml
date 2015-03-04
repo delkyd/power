@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">天然气热值计算</string>
+    <string name="action_settings">设置</string>
+    <string name="error">超限</string>
+    <string name="about">关于</string>
+    <string name="meas_press">计量压力</string>
+    <string name="meas_temp">计量温度</string>
+    <string name="comb_temp">燃烧温度</string>
+    <string name="mol_basis">摩尔百分比</string>
+    <string name="vol_basis">体积百分比</string>
+    <string name="total">总和</string>
+    <string name="masshhv">质量高位发热量</string>
+    <string name="masslhv">质量低位发热量</string>
+    <string name="molhhv">摩尔高位发热量</string>
+    <string name="mollhv">摩尔低位发热量</string>
+    <string name="igvolhhv">理想体积高位发热量</string>
+    <string name="igvollhv">理想体积低位发热量</string>
+    <string name="igdenrel">理想气体相对密度</string>
+    <string name="igden">理想气体密度</string>
+    <string name="igwebb">理想气体韦伯指数</string>
+    <string name="rgvolhhv">真实体积高位发热量</string>
+    <string name="rgvollhv">真实体积低位发热量</string>
+    <string name="rgdenrel">真实气体相对密度</string>
+    <string name="rgden">真实气体密度</string>
+    <string name="rgwebb">真实气体韦伯指数</string>
+    <string name="total_error">组分总和不为100</string>
+    <string name="input_error">输入错误，请检查</string>
+    <string name="test_condition">测试条件</string>
+    <string name="components">天然气成分比例</string>
+    <string name="test_result">试验数据</string>
+    <string name="ratio_type">天然气组分类型</string>
+    <string name="ratio_dialog_title">选择天然气组分类型</string>
+    <string name="calc">计算</string>
+    <string name="molmass">摩尔质量</string>
+</resources>

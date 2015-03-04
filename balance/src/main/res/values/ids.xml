@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="mass1" type="id">1</item>
+    <item name="mass2" type="id">2</item>
+    <item name="mass3" type="id">3</item>
+    <item name="mass4" type="id">4</item>
+</resources>

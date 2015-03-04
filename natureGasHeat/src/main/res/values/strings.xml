@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">NG Calorific</string>
+    <string name="action_settings">Settings</string>
+    <string name="error">Exceed Limit</string>
+    <string name="about">About</string>
+    <string name="meas_press">Measure Press</string>
+    <string name="meas_temp">Measure Temp</string>
+    <string name="comb_temp">Combustion Temp</string>
+    <string name="mol_basis">mol basis</string>
+    <string name="vol_basis">vol basis</string>
+    <string name="total">Total</string>
+    <string name="masshhv">Mass HHV</string>
+    <string name="masslhv">Mass LHV</string>
+    <string name="molhhv">Mol HHV</string>
+    <string name="mollhv">Mol LHV</string>
+    <string name="igvolhhv">Ideal Gas Vol HHV</string>
+    <string name="igvollhv">Ideal Gas Vol LHV</string>
+    <string name="igdenrel">Ideal Gas Relative Density</string>
+    <string name="igden">Ideal Gas Density</string>
+    <string name="igwebb">Ideal Gas Webb index</string>
+    <string name="rgvolhhv">Real Gas Vol HHV</string>
+    <string name="rgvollhv">Real Gas Vol LHV</string>
+    <string name="rgdenrel">Real Gas Relative Density</string>
+    <string name="rgden">Real Gas Density</string>
+    <string name="rgwebb">Real Gas Webb Index</string>
+    <string name="total_error">Total is not 100%</string>
+    <string name="input_error">input_error</string>
+    <string name="test_condition">Test Condition</string>
+    <string name="components">Compoents Ratio</string>
+    <string name="test_result">Result Data</string>
+    <string name="ratio_type">Component Ratio Type</string>
+    <string name="ratio_dialog_title">Select Component Ratio Type</string>
+    <string name="calc">Calculation</string>
+    <string name="molmass">Mol mass</string>
+</resources>

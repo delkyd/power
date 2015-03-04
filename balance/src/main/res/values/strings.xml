@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">动平衡计算</string>
+    <string name="action_settings">设置</string>
+    <string name="delete">删除</string>
+
+
+    <string name="mass_vib">试加振动</string>
+    <string name="mass_vib_phase">平衡振动幅值/相位</string>
+
+    <string name="meas_point">测量位置</string>
+
+    <string name="num_vp">测点数量</string>
+    <string name="num_mass">平衡数量</string>
+
+    <string name="vp_name">测点名称</string>
+    <string name="vp_help">如#1瓦X方向</string>
+
+    <string name="coeff">影响系数</string>
+    <string name="orig_vib">测点振动</string>
+    <string name="mass_position">平面位置</string>
+    <string name="mass_help">"如低发对轮"</string>
+    <string name="residual_vib">残余振动</string>
+    <string name="mass_result">计算结果</string>
+    <string name="device_name">设备名称</string>
+    <string name="device_type">设备类型</string>
+
+    <string name="after_vib">试加振动</string>
+    <string name="try_mass">试加重量</string>
+
+    <string name="svg">矢量计算</string>
+    <string name="svg_add">加矢量计算</string>
+    <string name="svg_sub">减矢量计算</string>
+    <string name="svg_mul">乘矢量计算</string>
+    <string name="svg_div">除矢量计算</string>
+    <string name="input_error">输入错误，请修改</string>
+
+    <string name="error_device_name_empty">设备名称和设备类型不能为空，其作为上传文件名字</string>
+    <string name="upload_success">上传数据成功</string>
+    <string name="upload_fail">上传数据失败</string>
+    <string name="username">用户名</string>
+    <string name="password">密   码</string>
+
+    <string name="method_coeff">影响系数法</string>
+    <string name="mothod_harmonic">谐分量法</string>
+
+
+    <string name="calc">计算</string>
+    <string name="iter">迭代</string>
+
+    <string name="a_vib">A1原始振动</string>
+    <string name="a_aft">A1试加振动</string>
+    <string name="a_mass">A1试加质量</string>
+    <string name="b_vib">A2原始振动</string>
+    <string name="b_aft">A2试加振动</string>
+    <string name="b_mass">A2试加质量</string>
+    <string name="apb_vib">A1+A2原始振动</string>
+    <string name="apb_aft">A1+A2试加振动</string>
+    <string name="apb_mass">A1+A2试加质量</string>
+    <string name="apb_coe">A1+A2影响系数</string>
+    <string name="apb_result">A1+A2平衡质量</string>
+    <string name="asb_vib">A1-A2原始振动</string>
+    <string name="asb_aft">A1-A2试加振动</string>
+    <string name="asb_mass">A1-A2试加质量</string>
+    <string name="asb_coe">A1-A2影响系数</string>
+    <string name="asb_result">A1-A2平衡质量</string>
+    <string name="a_result">A1平衡质量</string>
+    <string name="b_result">A2平衡质量</string>
+
+    <string name="my_data">我上传的数据</string>
+    <string name="log_out"><u>退出登录</u></string>
+    <string name="signup"><u>注册</u></string>
+    <string name="signin"><u>登录</u></string>
+
+    <string name="error_input_name_model">必须输入设备名称和类型，测点名称和平衡平面</string>
+    <string name="error_input_error">输入错误,请检查</string>
+
+    <string name="upload">上传</string>
+    <string name="my">我的</string>
+    <string name="error_vp_less_mass">测点数量不能小于平面数量</string>
+    <string name="title_share">分享正在使用的</string>
+    <string name="description_share">共享</string>
+
+
+    <!-- Re-share template text indicating the user is at a particular session -->
+    <string name="share_template">检查在</string>
+    <string name="about">关于</string>
+
+</resources>
