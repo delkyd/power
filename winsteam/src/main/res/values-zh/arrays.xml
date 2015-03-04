@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <string-array name="entries_list_preference">
+        <item>IFC97</item>
+        <item>IFC67</item>
+    </string-array>
+     <!-- Used in app/menu examples -->
+    <string-array name="entryvalues_list_preference">
+        <item>IFC97</item>
+        <item>IFC67</item>
+    </string-array>
+    <string-array name="press">
+		<item>bar(a)</item>
+		<item>bar(g)</item>
+		<item>mbar(a)</item>
+		<item>MPa(a)</item>
+		<item>kPa(a)</item>
+		<item>psi(a)</item>
+		<item>psi(g)</item>
+		<item>in Hg(a)</item>
+		<item>atm(a)</item>
+		<item>m H2O(a)</item>
+		<item>cm H2O(a)</item>
+		<item>mm H2O(a)</item>
+		<item>in H2O(a)</item>
+		<item>ft H2O(a)</item>
+		<item>cm Hg(a)</item>
+		<item>mm Hg(a)</item>
+		<item>kgf/cm2(a)</item>
+		<item>kgf/m2(a)</item>
+	</string-array>
+	
+	<string-array name="temp">
+		<item>K</item>
+		<item>℃</item>
+		<item>℉</item>
+		<item>R</item>
+	</string-array>
+	
+	<string-array name="quality">
+		<item>-</item>
+		<item>%</item>
+	</string-array>
+	<string-array name="enh">
+		<item>kJ/kg</item>
+		<item>BTU/lb</item>
+		<item>kcal/kg</item>
+		<item>J/kg</item>
+		<item>cal/kg</item>
+	</string-array>
+
+	<string-array name="ens">
+		<item>kJ/kg/K</item>
+		<item>BTU/lb/R</item>
+		<item>kcal/kg/K</item>
+		<item>ft-lbf/lbm/R</item>
+		<item>psi/lbm/ft3/R</item>
+		<item>kp-m/g/K</item>
+		<item>bar-cm3/g/K</item>
+		<item>hp-hr/lbm/R</item>
+
+	</string-array>
+	<string-array name="vol">
+		<item>m3/kg</item>
+		<item>kg/m3</item>
+		<item>in3/lbm</item>
+		<item>gal(US)/lbm</item>
+		<item>gal(UK)/lbm</item>
+		<item>ft3/lbm</item>
+		<item>in3/oz</item>
+		<item>ft3/oz</item>
+
+	</string-array>
+	<string-array name="dvis">
+		<item>kg/m/s</item>
+		<item>Pa-s</item>
+		<item>P</item>
+		<item>kgf-s/m2</item>
+		<item>lbf-s/ft2</item>
+		<item>lbf-s/in2</item>
+	</string-array>
+
+	<string-array name="kvis">
+		<item>m2/s</item>
+		<item>ft2/s</item>
+		<item>in2/s</item>
+		<item>St</item>
+		<item>cSt</item>
+	</string-array>
+
+	<string-array name="speed">
+		<item>m/s</item>
+		<item>ft/s</item>
+		<item>km/h</item>
+		<item>Mach</item>
+		<item>mi/h</item>
+	</string-array>
+
+	<string-array name="ramd">
+		<item>W/m/K</item>
+		<item>kcal/m/h/K</item>
+		<item>BTU/ft/h/F</item>
+
+	</string-array>
+	
+	<string-array name="other">
+		<item>-</item>
+	</string-array>
+</resources>

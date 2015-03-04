@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:input="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+	<RelativeLayout
+	    android:id="@+id/relative_ad"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentTop="true" >
+
+    </RelativeLayout>
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:layout_below="@id/relative_ad"
+        android:paddingTop="8dp">
+		
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TableLayout
+                android:id="@+id/TableLayout1"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/btnCalc"
+                android:layout_alignParentTop="true"
+                android:paddingLeft="4dp"
+                android:paddingRight="4dp" 
+                >
+
+                <TableRow
+                    android:id="@+id/tableRow1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/round_corner_shape"
+                    >
+
+                    <CheckBox
+                        android:id="@+id/cb_p"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="0dp" />
+
+                    <com.example.winsteam.DataInputControl
+                        android:id="@+id/input_pressure"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        input:text="@string/press"
+                        input:type="press" 
+                        />
+
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRow2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" 
+                    android:background="@drawable/rectangle_shape">
+
+                    <CheckBox
+                        android:id="@+id/cb_t1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <com.example.winsteam.DataInputControl
+                        android:id="@+id/input_temp"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        input:text="@string/temp"
+                        input:type="temp" />
+
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRow3"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" 
+                    android:background="@drawable/rectangle_shape">
+
+                    <CheckBox
+                        android:id="@+id/cb_x"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <com.example.winsteam.DataInputControl
+                        android:id="@+id/input_quality"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        input:text="@string/quality"
+                        input:type="quality" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRow4"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" 
+                    android:background="@drawable/rectangle_shape">
+
+                    <CheckBox
+                        android:id="@+id/cb_h"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <com.example.winsteam.DataInputControl
+                        android:id="@+id/input_enh"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        input:text="@string/enh"
+                        input:type="enh" />
+
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRow5"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" 
+                    android:background="@drawable/rectangle_shape">
+
+                    <CheckBox
+                        android:id="@+id/cb_s"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <com.example.winsteam.DataInputControl
+                        android:id="@+id/input_ens"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        input:text="@string/ens"
+                        input:type="ens" />
+
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRow8"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" 
+                    android:background="@drawable/bottom_shape">
+
+                    <CheckBox
+                        android:id="@+id/cb_v"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <com.example.winsteam.DataInputControl
+                        android:id="@+id/input_vol"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        input:text="@string/vol"
+                        input:type="vol" />
+
+                </TableRow>
+            </TableLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" 
+                android:paddingLeft="4dp"
+                android:paddingRight="4dp" >
+
+                <Button
+        			android:id="@+id/btnCalc"
+        			android:layout_width="match_parent"
+        			android:layout_height="wrap_content"
+        			android:layout_weight="1"
+        			android:text="@string/calc" />
+                <com.example.winsteam.DataDisplayControl
+                    android:id="@+id/Display_Cp"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    input:symbol="Cp="
+                    input:text="@string/cp"
+                    input:type="ens" />
+                <com.example.winsteam.DataDisplayControl
+                    android:id="@+id/Display_Cv"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    input:symbol="Cv="
+                    input:text="@string/cv"
+                    input:type="ens" />
+                <com.example.winsteam.DataDisplayControl
+                    android:id="@+id/Display_Energy"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    input:symbol="E="
+                    input:text="@string/e"
+                    input:type="enh" />
+                <com.example.winsteam.DataDisplayControl
+                    android:id="@+id/Display_dvis"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    input:symbol="μ="
+                    input:text="@string/dvis"
+                    input:type="dvis" />
+                <com.example.winsteam.DataDisplayControl
+                    android:id="@+id/Display_kvis"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    input:symbol="v="
+                    input:text="@string/kvis"
+                    input:type="kvis" />
+                <com.example.winsteam.DataDisplayControl
+                    android:id="@+id/Display_ks"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    input:symbol="KS="
+                    input:text="@string/ks"
+                    input:type="other" />
+                <com.example.winsteam.DataDisplayControl
+                    android:id="@+id/Display_ramd"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    input:symbol="λ="
+                    input:text="@string/ramd"
+                    input:type="ramd" />
+                <com.example.winsteam.DataDisplayControl
+                    android:id="@+id/Display_prn"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    input:symbol="Pr="
+                    input:text="@string/prn"
+                    input:type="other" />
+                <com.example.winsteam.DataDisplayControl
+                    android:id="@+id/Display_jdcs"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    input:symbol="ε="
+                    input:text="@string/eps"
+                    input:type="other" />
+                <com.example.winsteam.DataDisplayControl
+                    android:id="@+id/Display_sound"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    input:symbol="ssp="
+                    input:text="@string/ssp"
+                    input:type="speed" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    
+
+</RelativeLayout>

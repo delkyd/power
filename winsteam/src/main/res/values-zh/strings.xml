@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">水蒸汽性质</string>
+    <string name="action_settings">设置</string>
+    <string name="press">压力</string>
+    <string name="temp">温度</string>
+    <string name="quality">湿度</string>
+    <string name="enh">比焓</string>
+    <string name="ens">比熵</string>
+    <string name="calc">计算</string>
+    <string name="efficiencetitle">汽轮机效率</string>
+    <string name="inletpress">进口压力</string>
+    <string name="inlettemp">进口温度</string>
+    <string name="outletpress">出口压力</string>
+    <string name="outlettemp">出口温度</string>
+    <string name="Efficience">效率</string>
+    <string name="vol">比容</string>
+    <string name="cp">定压比热</string>
+    <string name="cv">定容比热</string>
+    <string name="e">比内能</string>
+    <string name="dvis">动力粘度</string>
+    <string name="kvis">运动粘度</string>
+    <string name="ks">定熵指数</string>
+    <string name="ramd">导热系数</string>
+    <string name="prn">普朗特数</string>
+    <string name="eps">介电常数</string>
+    <string name="ssp">声速</string>
+    <string name="about">关于</string>
+    <string name="exit">退出</string>
+    <string name="error">参数越界</string>
+    <string name="water_title">蒸汽性质</string>
+    <string name="eff_title">汽轮机效率</string>
+    <string name="IFC_INLINE">IFC97 或 IFC67</string>
+    <string name="IFC">IFC公式</string>
+    <string name="IFC_SUMMARY">选择为IFC97 否则为IFC67</string>
+    <string name="dialog_title_list_preference">选择IFC97或 IFC67公式</string>
+    
+    <string name="condensor_pressure">设计凝汽器压力</string>
+    <string name="condensor_heat_duty">设计凝汽器热负荷</string>
+    <string name="circulating_water_flow">设计循环水流量</string>
+    <string name="circulating_water_inlet_temperature">设计循环水进口温度</string>
+    <string name="tube_water_velocity">设计循环水流速</string>
+    <string name="cleanliness_factor">清洁系数</string>
+    <string name="tube_od">换热管外径</string>
+    <string name="tube_id">换热管内径</string>
+    <string name="tube_material">换热管材料</string>
+    <string name="circulating water type">循环水水质</string>
+</resources>

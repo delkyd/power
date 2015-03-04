@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="entries_list_preference">
+		<item>IFC97</item>
+		<item>IFC67</item>
+	</string-array>
+	<!-- Used in app/menu examples -->
+	<string-array name="entryvalues_list_preference">
+		<item>IFC97</item>
+		<item>IFC67</item>
+	</string-array>
+
+	<string-array name="press">
+		<item>bar(a)</item>
+		<item>bar(g)</item>
+		<item>mbar(a)</item>
+		<item>MPa(a)</item>
+		<item>kPa(a)</item>
+		<item>psi(a)</item>
+		<item>psi(g)</item>
+		<item>in Hg(a)</item>
+		<item>atm(a)</item>
+		<item>m H2O(a)</item>
+		<item>cm H2O(a)</item>
+		<item>mm H2O(a)</item>
+		<item>in H2O(a)</item>
+		<item>ft H2O(a)</item>
+		<item>cm Hg(a)</item>
+		<item>mm Hg(a)</item>
+		<item>kgf/cm2(a)</item>
+		<item>kgf/m2(a)</item>
+	</string-array>
+	<string-array name="temp">
+		<item>K</item>
+		<item>℃</item>
+		<item>℉</item>
+		<item>R</item>
+	</string-array>
+	<string-array name="quality">
+		<item>-</item>
+		<item>%</item>
+	</string-array>
+	<string-array name="enh">
+		<item>kJ/kg</item>
+		<item>BTU/lb</item>
+		<item>kcal/kg</item>
+		<item>J/kg</item>
+		<item>cal/kg</item>
+	</string-array>
+
+	<string-array name="ens">
+		<item>kJ/kg/K</item>
+		<item>BTU/lb/R</item>
+		<item>kcal/kg/K</item>
+		<item>ft-lbf/lbm/R</item>
+		<item>psi/lbm/ft3/R</item>
+		<item>kp-m/g/K</item>
+		<item>bar-cm3/g/K</item>
+		<item>hp-hr/lbm/R</item>
+
+	</string-array>
+	<string-array name="vol">
+		<item>m3/kg</item>
+		<item>kg/m3</item>
+		<item>in3/lbm</item>
+		<item>gal(US)/lbm</item>
+		<item>gal(UK)/lbm</item>
+		<item>ft3/lbm</item>
+		<item>in3/oz</item>
+		<item>ft3/oz</item>
+
+	</string-array>
+	<string-array name="dvis">
+		<item>kg/m/s</item>
+		<item>Pa-s</item>
+		<item>P</item>
+		<item>kgf-s/m2</item>
+		<item>lbf-s/ft2</item>
+		<item>lbf-s/in2</item>
+	</string-array>
+
+	<string-array name="kvis">
+		<item>m2/s</item>
+		<item>ft2/s</item>
+		<item>in2/s</item>
+		<item>St</item>
+		<item>cSt</item>
+	</string-array>
+
+	<string-array name="speed">
+		<item>m/s</item>
+		<item>ft/s</item>
+		<item>km/h</item>
+		<item>Mach</item>
+		<item>mi/h</item>
+	</string-array>
+
+	<string-array name="ramd">
+		<item>W/m/K</item>
+		<item>kcal/m/h/K</item>
+		<item>BTU/ft/h/F</item>
+	</string-array>
+	
+	<string-array name="length">
+	    <item>m</item>
+	    <item>mm</item>
+	    <item>inch</item>
+	    <item>ft</item>
+	</string-array>
+	
+	<string-array name="tube_od">
+	    <item>15.875mm</item>
+	    <item>19.050mm</item>
+	    <item>22.225mm</item>
+	    <item>25.400mm</item>
+	    <item>28.575mm</item>
+	    <item>31.750mm</item>
+	    <item>34.925mm</item>
+	    <item>38.100mm</item>
+	    <item>41.275mm</item>
+	    <item>44.450mm</item>
+	    <item>47.625mm</item>
+	    <item>50.800mm</item>
+	</string-array>
+	<string-array name="tube_material">
+	    <item>Cu Fe 194</item>
+	    <item>Arsenical Cu</item>
+	    <item>Admiralty</item>
+	    <item>Al Brass</item>
+	    <item>Al Bronze</item>
+	    <item>Carbon Steel</item>
+	    <item>Cu Ni 90-10</item>
+	    <item>Cu Ni 70-30</item>
+	    <item>SS(UNS S43035)</item>
+	    <item>Titanium Grades</item>
+	    <item>SS(UNS S44660)</item>
+	    <item>SS(UNS S44735)</item>
+	    <item>SS TP 304</item>
+	    <item>SS TP 316/317</item>
+	    <item>SS(UNS N08367)</item>
+	</string-array>
+	<string-array name="tube_thickness">
+	    <item>BWG25 0.508mm</item>
+	    <item>BWG24 0.5588mm</item>
+	    <item>BWG23 0.635mm</item>
+	    <item>BWG22 0.7112mm</item>
+	    <item>BWG20 0.889mm</item>
+	    <item>BWG18 1.2446mm</item>
+	    <item>BWG16 1.651mm</item>
+	    <item>BWG14 2.1082mm</item>
+	    <item>BWG12 2.7686mm</item>
+	</string-array>
+	
+	<string-array name="other">
+		<item>-</item>
+	</string-array>
+	
+	
+	
+	
+	
+</resources>
